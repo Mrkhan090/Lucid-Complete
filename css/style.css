@@ -1,0 +1,700 @@
+/*css structure start here*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{s
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+/*css structure end here*/
+
+/*Global title css start*/
+	
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+
+.title h4{
+	font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px;
+}	
+
+.title h1{
+	font-size: 46px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+/*Global title css end*/
+
+/*header css start here*/
+.header{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 20px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: url("../images/line.png")center bottom no-repeat;
+    background-size: auto;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	background: url("../images/line.png")center bottom no-repeat;
+    background-size: auto;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-item .active{
+	background: url("../images/line.png")center bottom no-repeat;
+    background-size: auto;
+}
+/*header css end here*/
+
+/*banner css start here*/
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.banner h4{
+	font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+.banner h1{
+	font-size: 46px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+
+.banner p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 20px;
+}
+
+
+.banner .double-button{
+	width: 100%;
+	padding: 40px 0px 0px;
+}
+
+.banner .double-button .btn-primary{
+	padding: 15px 30px;
+	margin: 0px 20px 0px 0px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+.banner .double-button .btn-primary:hover{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.banner .double-button .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.banner .double-button .btn-info{
+	padding: 15px 30px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #999;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+.banner .double-button .btn-info:hover{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+.banner .double-button .btn-info:focus{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+/*banner css end here*/
+
+/*feature css start here*/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.feature .title{
+	text-align: center;
+}
+
+.feature .inner-feature{
+	width: 100%;
+	padding: 35px;
+	text-align: center;
+}
+
+.feature .inner-feature .icon{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	margin: 0px auto;
+	border: 1px solid #eee;
+	border-radius: 100%;
+}
+
+.feature .inner-feature h4{
+	font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+    text-transform: capitalize;
+    margin: 25px 0px 15px;
+}
+
+.feature .inner-feature p{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 20px;
+}
+/*feature css end here*/
+
+
+/* about-long css start here */
+
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+
+.about-long .title{
+	padding: 45px 0px 10px;
+}
+
+.about-long p{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 20px;
+}
+
+.about-long ul{
+	padding: 20px 0px 0px;
+	margin: 0;
+}
+
+.about-long ul li{
+	list-style: none;
+	margin: 0px 0px 10px;
+	font-size: 16px;
+	line-height: 1.7em;
+	font-weight: 700;
+	color: #000;
+}
+
+.about-long ul li img{
+	width: 13px;
+	height: 15px;
+	margin: 0px 10px 0px 0px;
+}
+/* about-long css end here */
+
+/*about-short css start here*/
+
+.about-short{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;	
+}
+
+.about-short .title{
+	margin: 50px 0px 0px;
+}
+
+.about-short .title h1{
+	font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+.about-short .title p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 20px 0px 0px;
+}
+
+/*about-short css end here*/
+
+/*testimonial css start here*/
+
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/test-bg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.testimonial .title{
+	text-align: center;
+	padding: 0px 0px 80px;
+}
+
+.testimonial .title h1{
+	color: #fff;
+}
+
+.testimonial .owl-carousel .item h4{
+	font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.4em;
+    color: #fff;
+    margin: 0px 0px 40px;
+}
+
+.testimonial .owl-carousel .item .clints-img{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+
+.testimonial .owl-carousel .item .clints-info{
+	width: 100%;
+	padding: 0px 0px 50px;
+}
+
+.testimonial .owl-carousel .item .clints-info h5{
+	font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #fff;
+    margin: 15px 0px 0px;
+
+}
+
+.testimonial .owl-carousel .item .clints-info p{
+	font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px 0px 20px;
+    text-transform: uppercase;
+}
+
+.testimonial .owl-theme .owl-dots .owl-dot.active span{
+	background: #fff;
+    zoom: 1;
+    width: 12px;
+    height: 12px;
+    margin: 6px 7px 4px;
+}
+
+/*testimonial css end here*/
+
+/*eye-catcher css start here*/
+
+.eye-catcher{
+	width: 100%;
+	padding: 40px 0px;
+	background: #191919;
+}
+
+.eye-catcher h1{
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 1.4em;
+	color: #fff;
+	margin: 0px 0px 0px;
+}
+
+.eye-catcher .double-button{
+	width: 100%;
+}
+
+.eye-catcher .double-button .btn-primary{
+	padding: 15px 30px;
+	margin: 0px 0px 0px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+.eye-catcher .double-button .btn-primary:hover{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.eye-catcher .double-button .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.eye-catcher .double-button .btn-info{
+	padding: 15px 30px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #999;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+.eye-catcher .double-button .btn-info:hover{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+.eye-catcher .double-button .btn-info:focus{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+/*eye-catcher css end here*/
+
+
+/*price css start here*/
+
+.price{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.price .title{
+	width: 100%;
+	text-align: center;
+}
+
+.price .price-box{
+	width: 100%;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.price .price-box .price-header{
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.price .price-box .price-header h4{
+	font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.price .price-box .main-price{
+	width: 100%;
+    padding: 40px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.price .price-box .main-price h1{
+	font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.price .price-box .main-price h1 sup{
+	font-size: 50px;
+	top: -0.8em;
+}
+
+.price .price-box .main-price p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin:  -20px 0px 0px;
+}
+
+.price .price-box .price-contant{
+    width: 100%;
+    padding: 40px 30px 25px;
+}
+
+.price .price-box .price-contant p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+    margin: 0px 0px 35px;
+}
+
+.price .price-box .price-contant p a{
+	text-decoration: none;
+}
+
+.price .price-box .price-contant .btn-primary{
+	padding: 12px 25px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #eee;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+.price .price-box:hover .price-header h4{
+	color: #008ed6;
+	transition: 1s;
+}
+
+.price-box:hover .main-price{
+	background: #008ed6;
+	transition: 1s;
+}
+
+.price-box:hover .main-price h1{
+	color: #fff;
+	transition: 1s;
+}
+
+.price-box:hover .main-price p{
+	color: #fff;
+	transition: 1s;
+}
+
+.price-box:hover .price-contant .btn-primary{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+}
+/*price css end here*/
+
+/*contact css start here*/
+
+.contact{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #f2f2f2;
+}
+
+.contact .title{
+	width: 100%;
+	text-align: center;
+}
+
+.contact .info{
+	width: 100%;
+	text-align: center;
+}
+
+.contact .info .fa{
+	font-size: 35px;
+	color: #008ed6;
+	margin: 0px 0px 25px;
+}
+
+.contact .info p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #999999;
+}
+
+.main-form{
+	width: 100%;
+	padding: 70px 60px 40px;
+	margin: 40px 0px -70px;
+	background: #15141a;
+	position: relative;
+	z-index: 1;
+}
+
+.main-form .form-control{
+	font-size: 16px;
+	color: #444348;
+	font-weight: 500;
+	padding: 13px;
+	border: 1px solid #444348;
+	background: transparent;
+	border-radius: 5px;
+}
+
+.main-form .form-control:focus{
+	border: 1px solid #444348;
+	background: transparent;
+	box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%);
+}
+
+.main-form .btn-primary{
+	padding: 12px 25px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+	border-radius: 3px;
+}
+
+
+.main-form .btn-primary:hover{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.main-form .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+/*contact css end here*/
+
+
+/*copyright css start here*/
+
+.copyright{
+	width: 100%;
+	padding: 30px 0px;
+	background: #15141a;
+	margin: -10px 0px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.copyright .social-icons{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.copyright .social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+
+.copyright .social-icons li a{
+	display: block;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	color: #444348;
+	background: transparent;
+}
+
+.copyright .social-icons li a:hover{
+	background: transparent;
+	color: #008ed6;
+	transition: 1s;
+}
+
+.copyright p{
+	font-size: 16px;
+	line-height: 1.2em;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	color: #444348;
+}
+
+.copyright p a{
+	text-decoration: none;
+	color: #444348;
+}
+
+.copyright p a:hover{
+	background: transparent;
+	color: #008ed6;
+	transition: 1s;
+}
+/*copyright css end here*/
